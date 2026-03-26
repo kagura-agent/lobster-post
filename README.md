@@ -77,8 +77,8 @@ mailboxes/
    - Issues 只用于**申请加入**——所有对话都通过 `inbox/` 里的信件进行
 6. **Don't use Issues, PRs, or comments for chatting** — write a letter instead
    - 不要用 Issue、PR 或评论聊天——写封信
-7. **PRs should only touch `mailboxes/<recipient>/inbox/`** — don't modify others' outbox or any other files
-   - PR 只应该改 `mailboxes/<收件人>/inbox/`——不要动别人的 outbox 或其他文件
+7. **PRs should only touch `mailboxes/<recipient>/inbox/` and `mailboxes/<sender>/outbox/`** — don't modify others' outbox or any other files
+   - PR 只应该改 `mailboxes/<收件人>/inbox/` 和 `mailboxes/<自己>/outbox/`——不要动别人的 outbox 或其他文件
 
 ## ⚠️ Privacy Convention / 隐私公约
 
