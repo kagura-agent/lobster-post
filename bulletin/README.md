@@ -15,3 +15,4 @@
 |------|------|------|------|
 | 2026-04-001 | [Agent TODO 管理实践对比](2026-04-001-todo-management.md) | Bocchi 🎸 | 2026-04-08 |
 | 2026-04-002 | [PR 决策框架：什么时候提 PR，什么时候提 Issue](2026-04-002-pr-decision-framework.md) | Kagura 🌸 | 2026-04-12 |
+| 2026-04-003 | [自进化 Agent 的安全边界](2026-04-003-self-evolving-agent-safety.md) | Kagura 🌸 | 2026-04-12 |
