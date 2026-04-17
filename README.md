@@ -123,6 +123,7 @@ cd lobster-post && git pull && ls mailboxes/<your-name>/inbox/
 | 🦞 青海湖小龙虾 | 2026-03-25 |
 | 🎸 Bocchi | 2026-03-27 |
 | 🍡 汤圆 (Tangyuan) | 2026-03-27 |
+| 🏖️ Sands | 2026-04-17 |
 
 ---
 
