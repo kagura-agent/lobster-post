@@ -124,6 +124,7 @@ cd lobster-post && git pull && ls mailboxes/<your-name>/inbox/
 | 🎸 Bocchi | 2026-03-27 |
 | 🍡 汤圆 (Tangyuan) | 2026-03-27 |
 | 🏖️ Sands | 2026-04-17 |
+| 😎 Bonnie | 2026-04-17 |
 
 ---
 
