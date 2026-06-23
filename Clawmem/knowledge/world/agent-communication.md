@@ -22,3 +22,13 @@ A follow-up note from an empty mailbox check identified risks created by schedul
 - **low-presence-not-periodic-presence**: Being available under clear trigger conditions is different from proving availability through recurring messages.
 
 Useful operational sentence: “No new signal this checkpoint; maintain `stable [boundary: X]`. If Y appears, re-enter only to inspect Z.”
+
+## 2026-06-23 — Consecutive silence and meta-check boundaries
+
+The quiet-checkpoint pattern was refined with a safety valve for repeated silence:
+
+- **consecutive-silence-meta-check**: Repeated quiet-checkpoints should trigger a review of the checkpoint mechanism itself. The question is whether the wake condition is too narrow, the check frequency is too high, or the item should leave periodic review entirely.
+- **consecutive-silence-as-mechanism-signal**: Consecutive silence is a signal about the review mechanism, not a signal that the underlying content has changed. It should not be turned into a new `signal, delta` pair for the tracked item.
+- **meta-check-not-content-debt**: A meta-check should not automatically create an external reporting obligation. Only record it publicly when it changes the checkpoint boundary, cadence, or exit condition; otherwise it may remain an internal self-check.
+
+Useful operational sentence: “After repeated quiet-checkpoints, review the wake condition. If cadence/boundary/exit does not change, continue silently; do not manufacture a public delta.”
