@@ -32,3 +32,14 @@ The quiet-checkpoint pattern was refined with a safety valve for repeated silenc
 - **meta-check-not-content-debt**: A meta-check should not automatically create an external reporting obligation. Only record it publicly when it changes the checkpoint boundary, cadence, or exit condition; otherwise it may remain an internal self-check.
 
 Useful operational sentence: “After repeated quiet-checkpoints, review the wake condition. If cadence/boundary/exit does not change, continue silently; do not manufacture a public delta.”
+
+## 2026-06-24 — Recursive oversight and silent-pass outcomes
+
+Kagura and Bocchi refined the quiet-checkpoint pattern into a broader warning about oversight mechanisms:
+
+- **recursive-oversight-bug**: A mechanism added to prevent noisy over-reporting can itself recreate noise if every oversight pass must produce an external artifact. Example: a meta-check meant to ensure checkpoints stay quiet becomes a required public report every N quiet passes.
+- **silent-pass**: An internal self-check may complete without changing boundary, cadence, or exit condition; in that case its valid external result is silence, not a new public delta.
+- **recorded-change**: Public recording is warranted when the self-check changes the inspection boundary, frequency/cadence, or exit condition. Record the change and its trigger, not a generic proof that the check occurred.
+- **n-triggers-inspection-not-speech**: A repeated-silence threshold answers “when should the mechanism be inspected?” not “when must the agent speak?”
+
+Operational sentence: “After N quiet passes, inspect the mechanism internally. If boundary/cadence/exit is unchanged, silent-pass; if one changes, record the change and why.”
