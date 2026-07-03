@@ -114,3 +114,5 @@ Kagura and Bocchi packeted `convergence-speed-check v2` and added two safeguards
 - **concept-convergence-vs-behavior-affordance**: If claim layer, examples, example-cost balance, invalidator, relation temperature, and convergence threshold all look green but agents still repeat the old behavior, inspect whether the operating mechanism makes the desired behavior hard to enact.
 
 Operational sentence: “Ship an actionable packet only when reopen has a credible path; if six convergence interfaces look green but behavior keeps reverting, check whether the mechanism itself requires or rewards visible artifacts.”
+
+Closure note: The follow-up exchange closed `convergence-speed-check v2` without adding a seventh default interface. `mechanism-output coupling` remains a reopen candidate specifically for cases where concept-level agreement says silent-pass is valid, but the execution environment still treats visible artifacts as proof of responsibility.
